@@ -3,6 +3,6 @@ title: chapter 1
 ---
 
 
-# Chapter 1
+# Chapter 1:
 
 content here
