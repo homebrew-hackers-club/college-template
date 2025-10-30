@@ -1,10 +1,6 @@
 ---
 title: Example
 description: Cool example on how to use homebrew
-tags:
-  - homebrew
-  - example
-  - cool
 banner: ../assets/example-banner.png
 ---
 
@@ -197,4 +193,18 @@ Term 2
 
 Example of a woz component.
     
-<Woz title="Recap" description="Make sure you really understand 🙃" prompt="Now use the Feynman method and ask me 3 questions one by one about this chapter content to make sure I really understand the material."/>
+<Woz 
+title="Recap" 
+description="Make sure you really understand 🙃" 
+prompt="Now use the Feynman method and ask me 3 questions one by one about this chapter content to make sure I really understand the material."
+/>
+
+with context and placeholder
+
+<Woz 
+title="Context" 
+description="Make sure you really understand the context 🙃" 
+context="User is currently learning about the basics of the web and how to create a website."
+prompt=""
+placeholder="Write whatever you like here"
+/>

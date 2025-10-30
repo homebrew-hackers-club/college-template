@@ -32,9 +32,6 @@ Content files are MDX with YAML frontmatter for metadata:
 ---
 title: Example Title
 description: Short summary shown in listings
-tags:
-  - tag-one
-  - tag-two
 ---
 
 # Heading
@@ -45,13 +42,13 @@ Write in MDX. You can embed code blocks, images, and components.
 ## Create a course
 
 1. Create a folder in `courses/` using your course slug, e.g. `courses/web-apis/`.
-2. Add `index.mdx` with the course overview (include `title`, `description`, and optional `tags`).
+2. Add `index.mdx` with the course overview (include `title`, `description`, and optional `banner`).
 3. Add chapter files like `chapter-1.mdx`, `chapter-2.mdx`, etc. Use clear filenames; they’ll map to chapter slugs on the platform.
 
 ## Create a guide
 
 1. Add a new `.mdx` file in `guides/`, e.g. `guides/getting-started.mdx`.
-2. Include frontmatter (`title`, `description`, optional `tags`) and your content.
+2. Include frontmatter (`title`, `description`, optional `banner`) and your content.
 
 ## Use assets
 

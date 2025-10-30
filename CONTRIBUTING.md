@@ -39,7 +39,6 @@ git push origin content/<your-slug>
 ---
 title: Short and clear
 description: One-sentence summary
-tags: [ai, cursor]
 ---
 ```
 
